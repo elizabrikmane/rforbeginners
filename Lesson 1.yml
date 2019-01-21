@@ -1,0 +1,22 @@
+- Class: meta
+  Course: My Course
+  Lesson: My Lesson
+  Author: your name goes here
+  Type: Standard
+  Organization: your organization's name goes here
+  Version: 2.4.3
+
+- Class: text
+  Output: Let's practice and test our knowledge about data types R uses!
+
+- Class: cmd_question
+  Output: How can you check what type of data is 5? Write the function!
+  CorrectAnswer: class(5)
+  AnswerTests: omnitest(correctExpr="class(5)")
+  Hint: Just type class(5)!
+
+- Class: mult_question
+  Output: What kind of value does a boolean have?
+  AnswerChoices: TRUE;FALSE;Both
+  CorrectAnswer: Both
+  AnswerTests: omnitest(correctVal= 'Both')
